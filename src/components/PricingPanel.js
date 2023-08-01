@@ -6,18 +6,18 @@ const PricingPanel = () => {
     <body>
       <div class='panel pricing-table'>
         <div class='pricing-plan'>
-          <img src='../public/icon1.png' alt='' class='pricing-img' />
+          <img src={'/icon1.png'} alt='' class='pricing-img' />
           <h2 class='pricing-header'>Personal</h2>
           <ul class='pricing-features'>
-            <li>Custom domains</li>
-            <li>Sleeps after 30 mins of inactivity</li>
+            <li class='pricing-features-item'>Custom domains</li>
+            <li class='pricing-features-item'>Sleeps after 30 mins of inactivity</li>
           </ul>
           <span>Free </span>
           <a href="#/">Sign Up</a>
         </div>
 
         <div class='pricing-plan'>
-          <img src='../public/icon2.png' alt='' class='pricing-img' />
+          <img src='icon2.png' alt='' class='pricing-img' />
           <h2 class='pricing-header'>Small Team</h2>
           <ul class='pricing-features'>
             <li class='pricing-features-item'>Never Sleeps</li>
@@ -28,7 +28,7 @@ const PricingPanel = () => {
         </div>
 
         <div class='pricing-plan'>
-          <img src='../public/icon3.png' alt='' class='pricing-img' />
+          <img src='icon3.png' alt='' class='pricing-img' />
           <h2 class='pricing-header'>Enterprise</h2>
           <ul class='pricing-features'>
             <li class='pricing-features-item'>Dedicated</li>
