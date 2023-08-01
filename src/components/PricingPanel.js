@@ -12,8 +12,8 @@ const PricingPanel = () => {
             <li class='pricing-features-item'>Custom domains</li>
             <li class='pricing-features-item'>Sleeps after 30 mins of inactivity</li>
           </ul>
-          <span>Free </span>
-          <a href="#/">Sign Up</a>
+          <span class='pricing-price'>Free </span>
+          <a href="#/" class='pricing-button'>Sign Up</a>
         </div>
 
         <div class='pricing-plan'>
