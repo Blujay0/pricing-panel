@@ -1,6 +1,6 @@
 import logo from '../logo.svg';
 import './App.css';
-import LandingPage from './LandingPage';
+import PricingPanel from './PricingPanel';
 import { Routes, Route, Redirect } from 'react-router-dom';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         </a>
       </header> */}
       <Routes>
-        <Route exact path="/" element={<LandingPage />}/>
+        <Route exact path="/" element={<PricingPanel />}/>
       </Routes>
     </div>
   );
